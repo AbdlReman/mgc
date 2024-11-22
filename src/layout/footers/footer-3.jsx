@@ -37,7 +37,7 @@ const FooterThree = ({style_4}) => {
                                             alt="" /></span>
                                     <span>
                                         <span className="d-block mb-0">1300 Don City, N</span>
-                                        <b><a href="mailto:info@gencio.com"> info@gencio.com </a></b>
+                                        <b><a href="mailto:info@gencio.com"> info@maidaan.com </a></b>
                                     </span>
                                 </div>
                             </div>

@@ -61,10 +61,10 @@ const PricePlan = () => {
               <div className="section-title-wraper text-center mb-60">
                 <div className="tp-section">
                   <span className="tp-section__subtitle mb-15 shadow-none text-grey p-0 wow tpfadeUp">
-                    Our Price
+                  Maidaan's Milestones:
                   </span>
                   <h2 className="tp-section__title mb-30 wow tpfadeUp">
-                    Price & <span>Plans</span>
+                  Our  <span>Achievements</span>
                   </h2>
                 </div>
               </div>
@@ -78,20 +78,20 @@ const PricePlan = () => {
                 >
                   <div className="tp-price-box__info mb-35">
                     <b>
-                      <span>$</span>
+                      {/* <span>0</span> */}
                       {item.price}
                     </b>
                     <h4 className="tp-price-box__info-title">{item.title}</h4>
                     <span>{item.des}</span>
                   </div>
                   <div className="tp-purcase-btn--wrapper mb-25">
-                    <Link href="/checkout" className="tp-grd-border-btn">
+                    {/* <Link href="/checkout" className="tp-grd-border-btn">
                       <span className="mr-5">
                         <i className="fas fa-shopping-basket"></i>
                         <i className="fas fa-shopping-basket"></i>
                       </span>
                       Purchase Now
-                    </Link>
+                    </Link> */}
                   </div>
                   <div className="tp-price-fea-list">
                     <ul>

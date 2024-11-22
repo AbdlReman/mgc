@@ -61,7 +61,7 @@ const PortfolioArea = () => {
             className="swiper-container ha-portfolio-slider-active">
 
             {
-                portfolio_data.slice(0,8).map((item, i)  => 
+                portfolio_data.slice(0,7).map((item, i)  => 
                 <SwiperSlide key={i} className="ha-portfolio__item p-relative wow tpfadeUp" data-wow-delay={item.delay}>
                         <div className="ha-portfolio__item-img w-img p-relative">
                             <img src={item.img} alt="" />

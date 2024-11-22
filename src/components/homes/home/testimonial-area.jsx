@@ -19,37 +19,22 @@ const ts_slider = [
     id: 1,
     img: "/assets/img/testimonial/testi-avata-1.png",
     name: "River Craft",
-    title: "Founder, Romdon Co.",
-    des: (
-      <>
-        “ Our award-winning US-based experts are available to help when you get
-        stuck anytime day or night here is ready. ”
-      </>
-    ),
+    title: "Founder, Grand Realty Co.",
+    des: "“ Maidaan Group's innovative approach and unparalleled service have truly elevated our projects. Their dedication to excellence is unmatched. ”",
   },
   {
     id: 2,
     img: "/assets/img/testimonial/testi-avata-2.png",
     name: "Jayson Mahoney",
-    title: "Founder, Romdon Co.",
-    des: (
-      <>
-        “ Our award-winning US-based experts are available to help when you get
-        stuck anytime day or night here is ready. ”
-      </>
-    ),
+    title: "CEO, Elevate Homes",
+    des: "“ Working with Maidaan Group was a game-changer. Their real estate expertise and marketing strategies transformed our business trajectory. ”",
   },
   {
     id: 3,
     img: "/assets/img/testimonial/testi-avata-3.png",
     name: "Andre Xiong",
-    title: "Founder, Romdon Co.",
-    des: (
-      <>
-        “ Our award-winning US-based experts are available to help when you get
-        stuck anytime day or night here is ready. ”
-      </>
-    ),
+    title: "Director, UrbanSpaces Inc.",
+    des: "“ The team at Maidaan Group brings professionalism and innovation to every interaction. Their construction solutions are both sustainable and cutting-edge. ”",
   },
 ];
 

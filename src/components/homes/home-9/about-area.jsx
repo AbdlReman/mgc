@@ -4,16 +4,23 @@ import React from 'react';
 const about_content = {
     img: "/assets/img/about/ha-about-img.jpg",
     circle_img: "/assets/img/about/ha-abpiut-circle.png",
-    sub_title: "Since From 2000",
-    title: "Good design mean good business",
-    description: <>Being employee-owned keeps us focused on the unique needs of our users, & we wouldn't have it any other way. Our many security
-    features include Multi Factor Authentication.</>,
+    sub_title: "About",
+    title: "Building Dreams, One Project at a Time",
+    description: (
+        <>
+            At Victory Construction, we believe that great design is the cornerstone of great business. With over 40 years of 
+            expertise, we focus on delivering innovative, high-quality, and sustainable solutions that bring your vision to life. 
+            Our commitment to excellence and attention to detail ensure every project is a step toward success.
+        </>
+    ),
     features: [
-        <>Features include Multi Factor Authentication</>,
-        <>We strongly believe in providing open source solutions</>
+        <>Over 40 years of experience in construction</>,
+        <>Specialists in innovative and sustainable designs</>,
+        <>Unwavering commitment to client satisfaction</>
     ],
-    btn: "get in touch"
+    btn: "Get in touch"
 }
+
 
 const {img, circle_img, sub_title, title, description, features, btn }  = about_content
 
@@ -50,7 +57,7 @@ const AboutArea = () => {
                                 </ul>
 
                             </div>
-                            <div className="tp--indo-btns d-flex flex-wrap align-items-center wow tpfadeUp" data-wow-delay=".6s">
+                            {/* <div className="tp--indo-btns d-flex flex-wrap align-items-center wow tpfadeUp" data-wow-delay=".6s">
                                 <div className="tp-da-link-btn">
                                     <a href="#" className="tp-black-bg-btn">{btn}
                                         <span className="ml-10">
@@ -59,7 +66,7 @@ const AboutArea = () => {
                                         </span>
                                     </a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

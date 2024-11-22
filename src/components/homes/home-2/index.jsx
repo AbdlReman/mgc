@@ -10,6 +10,7 @@ import Service from "./service";
 import Slider from "./slider";
 import Testimonial from "./testimonial";
 import Header from "@/src/layout/headers/header";
+import Footer from "@/src/layout/footers/footer";
 
 const HomeTwo = () => {
   return (
@@ -22,8 +23,8 @@ const HomeTwo = () => {
       <Portfolio />
       <Testimonial />
       <CallToAction />
-      <OurBlog />
-      <FooterTwo />
+      {/* <OurBlog /> */}
+      <Footer/>
     </>
   );
 };

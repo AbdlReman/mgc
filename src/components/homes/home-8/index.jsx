@@ -11,6 +11,7 @@ import PortfolioArea from "./portfolio-area";
 import ServiceArea from "./service-area";
 import Testimonial from "./testimonial";
 import Header from "@/src/layout/headers/header";
+import Footer from "@/src/layout/footers/footer";
 
 const HomeEight = () => {
   return (
@@ -20,12 +21,12 @@ const HomeEight = () => {
       <AboutArea />
       <ServiceArea  />
       <PortfolioArea />
-      <OurTeam />
+      {/* <OurTeam /> */}
       <BusinessJourney />
       <Testimonial />
-      <Brand style_8={true} />
-      <Blog />
-      <FooterTwo style_8={true} />
+      {/* <Brand style_8={true} />
+      <Blog /> */}
+      <Footer />
     </>
   );
 };

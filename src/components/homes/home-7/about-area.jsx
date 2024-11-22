@@ -10,10 +10,15 @@ const about_content = {
     img_5: "/assets/img/about/law-signature.png", 
 
     left_title: "Good Expertise In Law",
-    title: <>about our lawyer <br /> firm agency</>,
-    about_P_title: <>We help you build and  grow your business.</>,
-    des: <>Lawyer's content marketing strategy should include adding & updating your most important and high-performing. Certain circumstances seds
-    owing to the claims duty ourighteous.</>,
+    title: <>about  <br /> maidaan group</>,
+    about_P_title: <>About Maidaan Group.</>,
+    des: <>Maidaan Group is a dynamic and forward-thinking conglomerate with a diverse portfolio of projects that span across real estate, construction, and community development. With a strong commitment to excellence, innovation, and sustainability, we have positioned ourselves as leaders in the industries we operate in. At Maidaan Group, we take pride in our ability to create impactful solutions that not only meet the market's demands but also enhance the lives of individuals and communities around the world.
+    <br/><br/>
+    Our projects are a reflection of our core values: quality, transparency, and client-centricity. Whether it's through our state-of-the-art residential communities like Grand Prairie Gardens (GPG), or through our cutting-edge marketing and event services for the real estate industry through Maidaan Marketing, our focus is always on delivering excellence with a strong sense of purpose.
+<br/><br/>
+Maidaan Group is a diverse family of businesses united by a common goal: to build communities, foster collaboration, and create opportunities for growth across borders.
+
+</>,
 }
 
 const {img_1, img_2, img_3, img_4, img_5,  left_title, title,about_P_title, des}  = about_content 
@@ -98,7 +103,7 @@ const AboutArea = ({style_about}) => {
                                     </p>
                                 </div>
                             </div>
-                            <div className={`law-ab-author ${style_about ? "theme-bg" : "wine-bg mb-30"}`}> 
+                            {/* <div className={`law-ab-author ${style_about ? "theme-bg" : "wine-bg mb-30"}`}> 
                                 <div className="row align-items-center">
                                     <div className="col-sm-8 col-12 wow tpfadeUp">
                                         <div className="law-ab-avata-box d-flex align-items-center">
@@ -121,8 +126,8 @@ const AboutArea = ({style_about}) => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="row gx-md-5">
+                            </div> */}
+                            {/* <div className="row gx-md-5">
                             {about_feature_data.map((item, i) =>
                                 <div key={i} className="col-sm-6 col-12">
                                         <div className="low-ab-feature d-flex align-items-center">
@@ -137,7 +142,7 @@ const AboutArea = ({style_about}) => {
                                     </div>                                          
                                 </div>
                             )}
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

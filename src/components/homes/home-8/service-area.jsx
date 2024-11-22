@@ -5,22 +5,19 @@ import React from "react";
 
 const service_data = [
   {
-      id: 1, 
-      img: "/assets/img/services/icon/ca-sv-icon-1.png",
-      title: "Architectural Design",
-      des: <>Victory Builders specializes in creating innovative and sustainable designs for high-rise buildings.</>
+    id: 1,
+    title: "Modern Architecture",
+    des: <>Our team of skilled architects delivers sleek, modern designs that blend functionality with aesthetic appeal.</>,
   },
   {
-      id: 2, 
-      img: "/assets/img/services/icon/ca-sv-icon-2.png",
-      title: "Construction Management",
-      des: <>We provide end-to-end construction management services, ensuring quality and timely delivery for high-rise projects.</>
+    id: 2,
+    title: "Construction Services",
+    des: <>We undertake complete construction projects, ensuring durability, precision, and adherence to industry standards.</>,
   },
   {
-      id: 3, 
-      img: "/assets/img/services/icon/ca-sv-icon-3.png",
-      title: "Structural Engineering",
-      des: <>Our expertise in structural engineering guarantees safe and efficient high-rise construction solutions.</>
+    id: 3,
+    title: "Renovation & Remodeling",
+    des: <>Victory Builders excels in breathing new life into old spaces, offering comprehensive renovation and remodeling solutions.</>,
   },
   
 ];
@@ -41,6 +38,7 @@ const ServiceArea = () => {
     <>
       <div
         className="ca-service-area theme-bg-7 pt-120 pb-90"
+        id="services"
         style={{
           backgroundImage: `url(/assets/img/services/ca-sv-pattern-bg.png)`,
         }}
@@ -60,13 +58,13 @@ const ServiceArea = () => {
             </div>
             <div className="col-md-4 wow tpfadeUp">
               <div className="ca-service-btn-wrapper float-md-end mb-75">
-                <a href="#" className="tp-white-btn-rgb">
+                {/* <a href="#" className="tp-white-btn-rgb">
                   {btn_text}
                   <span className="ml-10">
                     <i className="fal fa-long-arrow-right"></i>
                     <i className="fal fa-long-arrow-right"></i>
                   </span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -78,16 +76,12 @@ const ServiceArea = () => {
                   data-wow-delay=".4s"
                 >
                   <div className="ca-service__item text-center aos-init aos-animate">
-                    <div className="law-servicce__item-img mb-35">
-                      <img src={item.img} alt="" />
-                    </div>
+                   
                     <h3 className="ca-service__item-title mb-20">
                       <a href="#">{item.title}</a>
                     </h3>
                     <p className="mb-30">{item.des}</p>
-                    <a href="#" className="read-btn">
-                      Read More <i className="fal fa-long-arrow-right"></i>
-                    </a>
+                 
                   </div>
                 </div>
               </div>

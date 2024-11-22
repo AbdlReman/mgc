@@ -1,15 +1,18 @@
 import Link from "next/link";
 import React from "react";
 
-// about_content data 
+// about_content data
 const about_content = {
-  sub_title: "Since From 2000",
-  title: "To Make Your Digital Experience Brighter.",
+  sub_title: "The Maidaan Group",
+  title: "Revolutionizing Real Estate & Construction Services.",
   des: (
     <>
-      Being employee-owned keeps us focused on the unique needs of our users,
-      and we wouldn't have it any other way. Our many security features include
-      Multi Factor Authentication, auto-enabled sFTP .
+      Maidaan Group is a pioneer in real estate and construction, offering a
+      seamless blend of innovative solutions. With expertise in Event as a
+      Service (EAAS) and Marketing as a Service (MAAS), we simplify property
+      ownership and redefine industry standards. Through our construction
+      services, we bring visions to life by crafting modern, sustainable, and
+      high-quality structures that reflect our clients’ unique needs and aspirations.
     </>
   ),
   about_img1: "/assets/img/about/tp-bs-img.jpg",
@@ -20,10 +23,11 @@ const about_content = {
 const { title, des, about_img1, about_img2, about_img3, sub_title } =
   about_content;
 
-  // features data
+// features data
 const features = [
-  { title: "Features include Multi Factor Authentication" },
-  { title: "We strongly believe in providing open source solutions" },
+  { title: "Expertise in Event as a Service (EAAS) and Marketing as a Service (MAAS)" },
+  { title: "Innovative and sustainable construction solutions" },
+  { title: "Simplifying real estate transactions through advanced technology" },
 ];
 
 const AboutArea = () => {
@@ -43,20 +47,20 @@ const AboutArea = () => {
                   data-tilt=""
                   data-tilt-perspective="2000"
                 >
-                  <img src={about_img1} alt="" />
+                  <img src={about_img1} alt="About Maidaan Group" />
                 </div>
                 <div
                   className="tp-bs-sm-top"
                   data-tilt=""
                   data-tilt-perspective="2000"
                 >
-                  <img src={about_img2} alt="" />
+                  <img src={about_img2} alt="Our Services" />
                 </div>
                 <div className="tp-bs-sm-button">
-                  <img src="/assets/img/about/tp-bs-img-sm-button.jpg" alt="" />
+                  <img src="/assets/img/about/tp-bs-img-sm-button.jpg" alt="Innovative Solutions" />
                 </div>
                 <div className="tp-bs-bg-circle">
-                  <img src={about_img3} alt="" />
+                  <img src={about_img3} alt="Our Vision" />
                 </div>
               </div>
             </div>
@@ -82,7 +86,7 @@ const AboutArea = () => {
                     ))}
                   </ul>
                 </div>
-                <div className="tp-bs-indo-btns d-flex flex-wrap align-items-center">
+                {/* <div className="tp-bs-indo-btns d-flex flex-wrap align-items-center">
                   <div className="tp-bs-link-btn mr-30 mb-30">
                     <Link
                       href="/contact"
@@ -105,7 +109,7 @@ const AboutArea = () => {
                       <a href="tel:78568065900">785 680 659 00</a>
                     </b>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

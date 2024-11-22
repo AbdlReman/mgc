@@ -2,15 +2,15 @@
 const price_plan_data = [
     {
         id: 1,
-        price: "99",
-        title: "For Enterprise",
+        price: "1",
+        title: "High-Rise Projects",
         active: "",
-        des: <>Best choice for priority support</>,
+        des: <> Delivered successful projects like V7 Heights, Victory Chib Heights, Prince One Mall, and Jhelum Villas within a year.</>,
         price_list: [
-             <><b>Free Custorm </b>Domain</>,
-             <><b>Unlimited </b>Boost Power</>,
-             <><b>Mobile-Optimized </b>Website</>,
-             <><b>Lifetime </b>Usages</>,
+            //  <><b>Free Custorm </b>Domain</>,
+            //  <><b>Unlimited </b>Boost Power</>,
+            //  <><b>Mobile-Optimized </b>Website</>,
+            //  <><b>Lifetime </b>Usages</>,
         ],
         bg_color: "catskill-white-bg",
         btn_color: "tp-white-btn"
@@ -18,15 +18,15 @@ const price_plan_data = [
     },
     {
         id: 2,
-        price: "120",
-        title: "For Agency & Company",
+        price: "2",
+        title: " Events",
         active: "active",
-        des: <>Best choice for priority support</>,
+        des: <> Organized local and international real estate events in Lahore, Mirpur, Doha, Qatar, UK, and USA.</>,
         price_list: [
-             <><b>Free Custorm </b>Domain</>,
-             <><b>Unlimited </b>Boost Power</>,
-             <><b>Mobile-Optimized </b>Website</>,
-             <><b>Lifetime </b>Usages</>,
+            //  <><b>Free Custorm </b>Domain</>,
+            //  <><b>Unlimited </b>Boost Power</>,
+            //  <><b>Mobile-Optimized </b>Website</>,
+            //  <><b>Lifetime </b>Usages</>,
         ],
         bg_color: "white-bg",
         btn_color: "tp-btn"
@@ -34,15 +34,15 @@ const price_plan_data = [
     },
     {
         id: 3,
-        price: "500",
-        title: "For Big Company & Team",
+        price: "3",
+        title: "Collaborative Partnerships",
         active: "",
-        des: <>Best choice for priority support</>,
+        des: <> Maidaan and Victory Construction successfully completed projects with exceptional quality.</>,
         price_list: [
-             <><b>Free Custorm </b>Domain</>,
-             <><b>Unlimited </b>Boost Power</>,
-             <><b>Mobile-Optimized </b>Website</>,
-             <><b>Lifetime </b>Usages</>,
+            //  <><b>Free Custorm </b>Domain</>,
+            //  <><b>Unlimited </b>Boost Power</>,
+            //  <><b>Mobile-Optimized </b>Website</>,
+            //  <><b>Lifetime </b>Usages</>,
         ],
         bg_color: "catskill-white-bg",
         btn_color: "tp-white-btn"

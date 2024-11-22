@@ -67,7 +67,7 @@ export default CommonFooter;
 
 // copy right text
 const footer_content = {
-  copy_right_info:  <> Copyright & Design By <a href="#">@Theme Pure</a> - {new Date().getFullYear()} </>,
+  copy_right_info:  <> Copyright & Design By <a href="#">@maidaangroup</a> - {new Date().getFullYear()} </>,
 };
 
 const { copy_right_info } = footer_content;

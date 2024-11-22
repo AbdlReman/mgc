@@ -1,22 +1,22 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 
-
- const about_home_two_content = {
-    sub_title: "Since From 2000",
-    title: <> Obtaining Further IT <br /> By Make a Contact</>,
-    des: <>Being employee-owned keeps us focused on the unique needs of our <br />
-            users, and we wouldn't have it any other way. Our many
-            security features <br />
-            include Multi Factor Authentication, auto-enabled sFTP .</>,
+const about_home_two_content = {
+  sub_title: "maidaan properties",
+  title: <> Shaping Real Estate <br /> Through Trust and Excellence</>,
+  des: <>At Maidaan Properties, we prioritize the unique needs of our clients, offering <br />
+        transparent, innovative, and community-focused real estate solutions. <br />
+        Our expertise bridges markets, making property transactions seamless and secure.</>,
     author_img: "/assets/img/about/it-ab-avata.png",
-    author_name: "Alonso D. Cosdos",
-    author_title: "Head Of Idea",
-    author_des: <>Highly Tailored IT Design, Management & Support Services.
-    It’s possible to simultaneously manage.</>,
+  author_name: "Ali Raza",
+  author_title: "",
+  author_des: <>Dedicated to redefining real estate through professional property management, <br />
+    expert consultancy, and market insights tailored to your needs.</>,
     about_img: "/assets/img/about/it-about-img.jpg",
     logo: "/assets/img/about/logo.png",
- }
+};
+
+  
 
 
  const {sub_title, title, des,author_img, author_name, author_title, author_des, about_img, logo} = about_home_two_content

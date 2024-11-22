@@ -17,8 +17,7 @@ const CtaArea = () => {
               <div className="col-lg-8 col-12">
                 <div className="da-cta-info ml-130">
                   <h4>
-                    Focused on providing smart, Route conversation to the <br />
-                    right recipient for your customer in Gencio.
+                    Explore innovative real estate solutions and unlock unparalleled investment opportunities.
                   </h4>
                 </div>
               </div>

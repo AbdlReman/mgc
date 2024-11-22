@@ -5,10 +5,10 @@ import React from "react";
 const call_to_action_data = {
     action: "Call To Action",
     title: "Any Project On Your Mind. Let Us Know.",
-    phone: "+123 488 9652",
-    address: "25 West 21th Street, Miami FL, US",
-    email:"info@gencio-itsolutions.com",
-    date: "Mon-Fri: 10:00 - 18:0"
+    phone: "+92 304 111 3309",
+    address: "Fortune Plaza Blue Area Islamabad",
+    email:"info@maidaangroup.com",
+    date: "Mon-Fri: 09:00 - 18:0"
 }
 
 const {action, title, phone, address, email, date} = call_to_action_data

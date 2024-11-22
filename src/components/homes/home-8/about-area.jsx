@@ -6,17 +6,18 @@ import Tilt from "react-parallax-tilt";
 const about_content = {
     about_img: "/assets/img/about/ca-about.jpg",
     circle_img: "/assets/img/about/ca-cirlce-logo.png",
+   
+
     about: "About",
     sub_title: "About Us",
-    title: "To Make Your Digital Experience Brighter.",
-    des: <>Being employee-owned keeps us focused on the unique needs of our
-    users, and we wouldn't have it any other way. Our many security features
-    include Multi Factor Authentication, auto-enabled sFTP .</>,
-    author_img: "/assets/img/about/ca-about-sm.jpg",
-    author_name: "Mikado Sinson",
-    author_des:<>“ Find IT Marketing In Usa! Privacy Friendly. lways Facts. Unlimited Access. ”</>,
-    phone: "78568065900",
-    email : "info@gencio.com"
+    title: "Crafting Exceptional Residential & High-Rise Spaces.",
+    des: <>Victory Builders is dedicated to creating innovative, sustainable, and high-quality homes and structures. 
+    Our commitment to excellence ensures every project is tailored to meet your unique vision while maintaining industry-leading standards.</>,
+        author_img: "/assets/img/about/ca-about-sm.jpg",
+    author_name: "John Doe",
+    author_des: <>“ Transforming ideas into reality with precision, innovation, and integrity. ”</>,
+    phone: "923041113309",
+    email: "info@victorybuilders.com"
 
 
 }
@@ -58,7 +59,7 @@ const AboutArea = () => {
                                     <p>{des}</p>
                                 </div>
                             </div>
-                            <div className="ca-about-info tp-border-bottom d-md-flex align-items-center pb-40 mb-50">
+                            {/* <div className="ca-about-info tp-border-bottom d-md-flex align-items-center pb-40 mb-50">
                                 <div className="ca-about-info__thumb mr-30">
                                     <img src={author_img} alt="" />
                                 </div>
@@ -67,21 +68,21 @@ const AboutArea = () => {
                                     <span>{author_name}</span>
                                 </div>
 
-                            </div>
+                            </div> */}
                             <div className="ca-about-btn-wrapper d-md-flex align-items-center">
                                 <div className="ca-about-btn-wrapper mr-30 mb-30">
-                                    <a href={`tel:${phone}`} className="tp-border-btn-rgb">
-                                        Our Services
+                                    <a href="#services" className="tp-border-btn-rgb">
+                                        Services
                                         <span>
                                             <i className="fal  fa-long-arrow-right"></i>
                                             <i className="fal  fa-long-arrow-right"></i>
                                         </span>
                                     </a>
                                 </div>
-                                <div className="ca-about-cta mb-30">
+                                {/* <div className="ca-about-cta mb-30">
                                     <span>Get Support</span> <br />
                                     <a  href={`mailto:${email}`}>{email}</a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

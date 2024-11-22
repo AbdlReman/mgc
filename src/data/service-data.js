@@ -7,7 +7,7 @@ const service_data = [
         link: "/service-3",
         img: "/assets/img/services/icon/it-service-1.png",
         title: "Property Management",
-        des: <>We provide professional property management services to help you maintain and maximize your real estate investments.</>
+        des: <>We provide professional property management services to help you maintain real estate investments.</>
     },
     {
         id: 2,

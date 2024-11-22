@@ -5,7 +5,7 @@ import About from "../components/about";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"Gencio - About"} />
+      <SEO pageTitle={"Maidaan Group - About"} />
       <About />
     </>
   );

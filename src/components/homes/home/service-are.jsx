@@ -5,44 +5,48 @@ import React from "react";
 const service_data = [
   {
     id: 1,
-    icon: "assets/img/services/icon/service-icon-1.png",
-    naem: " Marketing",
-    link: "service",
+    description: "Expert guidance in buying, selling, and managing properties to meet your goals.",
+    name: "Real Estate",
+    link: "service-real-estate",
     delay: ".3s",
   },
   {
     id: 2,
-    icon: "assets/img/services/icon/service-icon-2.png",
-    naem: "Design",
-    link: "service-3",
+    description: "State-of-the-art construction services, ensuring sustainability and timely delivery of projects.",
+    name: "Construction",
+    link: "service-construction",
     delay: ".4s",
   },
   {
     id: 3,
-    icon: "assets/img/services/icon/service-icon-3.png",
-    naem: "Construction",
-    link: "service-2",
-    delay: ".6s",
+    description: "Personalized advice to help you make informed and profitable investment decisions.",
+    name: "Investment Consulting",
+    link: "service-investment-consulting",
+    delay: ".5s",
   },
   {
     id: 4,
-    icon: "assets/img/services/icon/service-icon-4.png",
-    naem: "Business growth",
-    link: "service",
-    delay: ".3s",
+    description: "Comprehensive event management for property and real estate showcases.",
+    name: "Event as a Service",
+    link: "service-eaas",
+    delay: ".6s",
   },
   {
     id: 5,
-    icon: "assets/img/services/icon/service-icon-5.png",
-    naem: "24/7 Support",
-    link: "contact",
-    delay: ".3s",
+    description: "Innovative marketing strategies to boost your brand's visibility and reach.",
+    name: "Marketing as a Service",
+    link: "service-maas",
+    delay: ".7s",
   },
+  
 ];
+
+
+
 
 const service_content = {
     name: "Services",
-    title: <> The Rewards From Putting <br /> Our Customers</>
+    title: <> The Benefits of Prioritizing <br /> Our Customers</>
 }
 
 const {name, title}  = service_content
@@ -82,12 +86,12 @@ const ServiceAre = () => {
                   data-wow-delay={item.delay}
                 >
                   <div className="tp-bs-service-box text-center pt-40 pb-40 mb-25">
-                    <div className="tp-bs-sv-icon mb-25">
-                      <img src={item.icon} alt="" />
-                    </div>
+                   
                     <h3 className="tp-bs-sv-title">
-                      <Link href={item.link}> {item.naem}</Link>
+                       {item.name}
+
                     </h3>
+                    <p className="m-3">{item.description}</p>
                   </div>
                 </div>
               ))}
@@ -99,14 +103,14 @@ const ServiceAre = () => {
               <img src="/assets/img/services/service-avatas.png" alt="" />
             </div>
             <p className="d-inline-block pr-5">
-              Here are some of the rewards from putting our customers first.
-            </p>
-            <Link href="/contact">
-              Make Request
-              <span>
-                <i className="fal fa-long-arrow-right"></i>
-              </span>
-            </Link>
+  At Maidaan Group, we prioritize our customers by offering expert services in real estate, construction, investment consulting, and event management, ensuring you achieve your goals.
+</p>
+<Link href="/contact">
+  Get In Touch With Us
+  <span>
+    <i className="fal fa-long-arrow-right"></i>
+  </span>
+</Link>
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const hero_content = {
   bg_img: "/assets/img/hero/dot-pattern-full.jpg",
-  title:   <> Business Management <br /> HR Application </>,
+  title:   <> Grand Prairie  <br /> Gardens </>,
   img: "/assets/img/hero/app-hero-pic.png",
 };
 const { bg_img, title, img } = hero_content;
@@ -28,16 +28,16 @@ const HeroBanner = () => {
                     className="palystole-btn-wrapper d-inline-block mr-30 wow tpfadeUp"
                     data-wow-delay=".4s"
                   >
-                    <a href="#" className="playstole-btn">
-                      <span>
+                    <a href="/contact" className="playstole-btn">
+                      {/* <span>
                         <i className="fab fa-google-play"></i>
                         <i className="fab fa-google-play"></i>
-                      </span>
-                      Get It On
-                      <b>Google Play</b>
+                      </span> */}
+                      Contact Us
+                    
                     </a>
                   </div>
-                  <div
+                  {/* <div
                     className="applestole-btn-wrapper d-inline-block wow tpfadeUp"
                     data-wow-delay=".4s"
                   >
@@ -49,7 +49,7 @@ const HeroBanner = () => {
                       Download On
                       <b>App Store</b>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

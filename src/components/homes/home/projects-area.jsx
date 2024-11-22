@@ -4,24 +4,25 @@ import React,{useState} from 'react';
 
 
 const project_data = [
+   {
+      id: 1,
+      img: "/assets/img/project/project-2.jpg",
+      sub_title: "Status: Completed",
+      title: "MidTown Jehlum",
+      link: "/portfolio-details",
+      col: "col-lg-4",
+      project_cls: "tp-bs-project__item"
+  },
     {
-        id: 1,
+        id: 2,
         img: "/assets/img/project/project-1.jpg",
-        sub_title: "Product Design, UI, UX",
-        title: "Leonox - Company Website Design",
+        sub_title: "Status: Completed",
+        title: "Prince One Mall",
         link: "/portfolio-details",
         col: "col-lg-8",
         project_cls: "tp-project__item"
     },
-    {
-        id: 2,
-        img: "/assets/img/project/project-2.jpg",
-        sub_title: "UX, Consultancy",
-        title: "Xionicy - Dashboard Design KIT",
-        link: "/portfolio-details",
-        col: "col-lg-4",
-        project_cls: "tp-bs-project__item"
-    },
+    
 
 
 ]
@@ -79,7 +80,7 @@ const ProjectsArea = () => {
             </div>
             <div className="row">
                <div className="col-12">
-                  <div className="project-more-btn">
+                  {/* <div className="project-more-btn">
                      <Link href="/portfolio-3" className="tp-common-btn tp-btn-hover alt-color">more works
                         <span>
                            <i className="fal fa-long-arrow-right"></i>
@@ -87,7 +88,7 @@ const ProjectsArea = () => {
                         </span>
                         <b></b>
                      </Link>
-                  </div>
+                  </div> */}
                </div>
             </div>
          </div>

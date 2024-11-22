@@ -11,6 +11,7 @@ import MpPortfolio from "./mp-portfolio";
 import PortfolioArea from "../../../common/portfolio-area";
 import ServiceArea from "./service-area";
 import Header from "@/src/layout/headers/header";
+import Footer from "@/src/layout/footers/footer";
 
 const HomeNine = () => {
   return (
@@ -18,14 +19,14 @@ const HomeNine = () => {
     <LineWrap />
       <Header/>
       <HeroBanner /> 
-      <ServiceArea />
+      {/* <ServiceArea /> */}
       <AboutArea />
-      <Brand />
+      {/* <Brand /> */}
       <PortfolioArea />
       <FaqArea />
       <MpPortfolio />
-      <Blog />
-      <FooterSeven />
+      {/* <Blog /> */}
+      <Footer />
     </>
   );
 };

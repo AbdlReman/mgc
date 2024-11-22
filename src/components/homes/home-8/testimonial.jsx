@@ -88,7 +88,7 @@ const Testimonial = () => {
                 className="ca-testi-active swiper-container">
 
 {
-    testimonial_data.slice(7, 13).map((item, i) =>
+    testimonial_data.slice(7, 10).map((item, i) =>
     <SwiperSlide key={i} className="it-testimonial" data-aos="fade-up" data-aos-duration="1500">
                             <div className="it-testimonial-box p-relative">
                                 <div className="it-testimonial-box__ratting">
@@ -99,9 +99,7 @@ const Testimonial = () => {
                                     <i className="fal fa-star"></i>
                                 </div>
                                 <div className="it-testimonial-box__review">
-                                    “ Our award-winning US-based experts are
-                                    available to help when you get stuck anytime
-                                    day or night here is ready. ”
+                                {item.des}
                                 </div>
                                 <div className="it-testimonial-bg">
                                     <img src="/assets/img/testimonial/testi-icon-bg.png" alt="" />
@@ -112,8 +110,8 @@ const Testimonial = () => {
                                     <img src={item.img} alt="" />
                                 </div>
                                 <div className="it-tesi-reviewer-name">
-                                    <h4 className="mb-5 vogue-text-color">Salim Rana</h4>
-                                    <span>Founder, Romdon Co.</span>
+                                    <h4 className="mb-5 vogue-text-color">{item.name}</h4>
+                                    <span>{item.title}</span>
                                 </div>
                             </div>
                         </SwiperSlide>

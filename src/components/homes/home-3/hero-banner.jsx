@@ -14,7 +14,7 @@ const HeroBanner = () => {
             <div className="col-lg-5">
               <div className="da-hero-section mt-40">
                 <span className="da-hero-section__subtitle white-bg mb-15 d-inline-block wow tpfadeUp">
-                Excellence Redefined with <b>Maidaan</b>
+                Simplifying Real Estate <b></b>
                 </span>
                 <div className="cd-intro">
                   <h3
@@ -45,8 +45,8 @@ const HeroBanner = () => {
                 className="da-header-grd-btn d-inline-block mr-20 mb-30 wow tpfadeUp"
                 data-wow-delay=".3s"
               >
-                <Link href="/service-3" className="tp-grd-btn">
-                  Our Services
+                <Link href="/contact" className="tp-grd-btn">
+                  Contact Us
                   <span className="ml-10">
                     <i className="fal fa-long-arrow-right"></i>
                     <i className="fal fa-long-arrow-right"></i>
@@ -57,14 +57,14 @@ const HeroBanner = () => {
                 className="da-header-gey-btn d-inline-block mb-30 wow tpfadeUp"
                 data-wow-delay=".5s"
               >
-                <Link href="/portfolio-4" className="tp-grey-btn">
+                {/* <Link href="/portfolio-4" className="tp-grey-btn">
                   Case study
                   <span className="ml-10">
                     <i className="fal fa-long-arrow-right"></i>
                     <i className="fal fa-long-arrow-right"></i>
                   </span>
                   <b></b>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -88,12 +88,12 @@ const HeroBanner = () => {
               </div>
               <div className="da-hero-black-box bg-black float-end">
                 <span>
-                  <a href="mailto:info@genico.com">info@genico.com</a>
+                  <a href="mailto:info@genico.com">info@maidaan.com</a>
                 </span>
                 <span className="float-end">
-                  <a href="mailto:info@genico.com">
+                  {/* <a href="mailto:info@genico.com">
                     Our Portfolio <i className="fal fa-long-arrow-right"></i>
-                  </a>
+                  </a> */}
                 </span>
               </div>
             </Tilt>

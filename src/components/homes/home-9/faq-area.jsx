@@ -47,7 +47,7 @@ const FaqArea = () => {
       <VideoPopup
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
-        videoId={"_ysd-zHamjk"}
+        videoId={"6zYM-NcP32k"}
       />
       {/* video modal end */}
         </>

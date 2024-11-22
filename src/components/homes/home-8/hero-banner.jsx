@@ -35,7 +35,7 @@ const HeroBanner = () => {
                     {title}
                   </h2>
                   <a
-                    href={`tel: ${phone}`}
+                    href="/contact"
                     className="tp-grd-btn wow tpfadeUp"
                     data-wow-delay=".4s"
                   >

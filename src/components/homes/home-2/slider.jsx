@@ -10,28 +10,25 @@ const slider_data = [
     id: 1,
     bg_img: "/assets/img/slider/it-slider-2.jpg",
     title: "Maidaan Properties",
-    des: <>We’ve always known that for businesses large and small, 
-    will <br /> can be a real challenge to manage.</>,
-    btn_text: "Free Consultation",
-    slder_quite: <><b> “ Simplicity is key to success for <br /> growing your business ” </b> <span> Mixodis C. <i>- Head of Idea </i> </span></>
+    des: <>Experience seamless real estate solutions with <br /> transparency and expertise.</>,
+    btn_text: "Get support",
+    slder_quite: <><b> “ Simplifying real estate, empowering <br /> your investments ” </b> <span> Ali Raza <i>- CEO, Maidaan Properties</i> </span></>
   },
   {
     id: 2,
     bg_img: "/assets/img/slider/it-slider-1.jpg",
     title: "Maidaan Properties",
-    des: <>We’ve always known that for businesses large and small, 
-    will <br /> can be a real challenge to manage.</>,
-    btn_text: "Free Consultation",
-    slder_quite: <><b> “ Simplicity is key to success for <br /> growing your business ” </b> <span> Mixodis C. <i>- Head of Idea </i> </span></>
+    des: <>Connecting overseas Pakistanis to <br /> prime real estate opportunities.</>,
+    btn_text: "Contact us",
+    slder_quite: <><b> “ Bridging communities through <br /> innovative property solutions ” </b> <span> Fatima Rizvi <i>- Client, Property Expo</i> </span></>
   },
   {
     id: 3,
     bg_img: "/assets/img/slider/it-slider-3.jpg",
     title: "Maidaan Properties",
-    des: <>We’ve always known that for businesses large and small, 
-    will <br /> can be a real challenge to manage.</>,
-    btn_text: "Free Consultation",
-    slder_quite: <><b> “ Simplicity is key to success for <br /> growing your business ” </b> <span> Mixodis C. <i>- Head of Idea </i> </span></>
+    des: <>Transforming real estate with a focus on <br /> community and excellence.</>,
+    btn_text: "Get in Touch",
+    slder_quite: <><b> “ A trusted name in property <br /> development and management ” </b> <span> John Malik <i>- Business Partner</i> </span></>
   },
 ];
 

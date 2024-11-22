@@ -12,7 +12,7 @@ const CtaArea = () => {
             <div className="col-12">
               <div className="bs-cta-section text-center">
                 <span className="bs-cta-section__subtitle mb-5 d-inline-block wow tpfadeUp">
-                  Schedule a 30 minute call
+                  Schedule a  call
                 </span>
                 <div className="cd-intro">
                   <h3 className="bs-cta-section__title cd-headline loading-bar mb-55 wow tpfadeUp">
@@ -24,7 +24,7 @@ const CtaArea = () => {
 
                    <TypeAnimation
                           sequence={[
-                            'Gencio', 
+                            'Maidaan', 
                             1000,
                             'Branding', 
                             3000,
@@ -52,7 +52,7 @@ const CtaArea = () => {
                 </span>
                 <b></b>
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="tp-white-btn tp-btn-hover alt-color cronblue-g-color wow tpfadeLeft"
               >
@@ -61,7 +61,7 @@ const CtaArea = () => {
                   <i className="fab fa-google"></i>
                 </span>
                 Google Calendar <b></b>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

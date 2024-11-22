@@ -18,7 +18,7 @@ const CtaAre = () => {
                            <span>Start your business journey better <br />
                               with </span>
                            <span className="cd-words-wrapper bs-cta-wrapper ca-cta-wrapper">
-                              <b className="is-hidden"> Gencio </b>
+                              <b className="is-hidden"> Maidaan</b>
                               <b className="is-visible"> Branding </b>
                               <b className="is-hidden"> Markting </b>
                            </span>
@@ -30,10 +30,10 @@ const CtaAre = () => {
             </div>
             <div className="row">
                <div className="bs-cta-btns text-center">
-                  <a href="#" className="tp-btn mr-30 wow tpfadeUp">Schedule a meeting<span><i className="fal fa-long-arrow-right"></i>
+                  <a href="/contact" className="tp-btn mr-30 wow tpfadeUp">Schedule a meeting<span><i className="fal fa-long-arrow-right"></i>
                         <i className="fal fa-long-arrow-right"></i></span></a>
-                  <a href="#" className="tp-white-btn cronblue-g-color wow tpfadeUp"><span><i className="fab fa-google"></i>
-                        <i className="fab fa-google"></i></span> Google Calendar </a>
+                  {/* <a href="#" className="tp-white-btn cronblue-g-color wow tpfadeUp"><span><i className="fab fa-google"></i>
+                        <i className="fab fa-google"></i></span> Google Calendar </a> */}
                </div>
             </div>
          </div>

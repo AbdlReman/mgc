@@ -4,9 +4,9 @@ import { TypeAnimation } from 'react-type-animation';
 
 
 const hero_content = {
-    top_title: "All-in-One Solutions",
+    top_title: "Comprehensive Branding Solutions",
     title: "for Every Size  of ",
-    sub_title: <>From automation of people process to creating an engaged & driven culture to build better for everyone.</>,
+    sub_title: <>At Maidaan Group, we blend creativity with strategy to deliver impactful branding solutions. Our holistic approach ensures your brand reflects its true essence while driving engagement and growth.</>,
     total_review: "1500",
     hero_img: "/assets/img/hero/hero-1.png",
     hero_pie_img : "/assets/img/hero/hero-pie-chart.png",
@@ -50,7 +50,7 @@ const HeroBusiness = () => {
                           wrapper="div"
                           cursor={false}
                           repeat={Infinity}
-                          style={{ color: "#ff3c58", textDecorationLine: "underline" }}
+                          style={{ color: "#0a61c1", textDecorationLine: "underline" }}
                         />
 
                     </span>
@@ -96,8 +96,8 @@ const HeroBusiness = () => {
                   className="bs-hero-feature__credit wow tpfadeLeft"
                   data-wow-delay=".6s"
                 >
-                  <i className="fas fa-credit-card"></i>
-                  <b> No credit card required</b>
+                  {/* <i className="fas fa-credit-card"></i>
+                  <b> No credit card required</b> */}
                 </span>
               </div>
             </div>

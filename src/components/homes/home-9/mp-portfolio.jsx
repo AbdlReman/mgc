@@ -2,32 +2,30 @@ import React from 'react';
 import Tilt from 'react-parallax-tilt';
 
 
-
-
 const portfolio_data =[
     {
         id: 1,
-        title: "Eco Dominson App",
-        city: "New York",
+        title: "V7 Height",
+        city: "Jhelum",
         hover_img: "/assets/img/portfolio/ha-pf-img.jpg",
     },
     {
         id: 2,
-        title: "MicDrop Agency Website",
-        city: "Japan",
-        hover_img: "/assets/img/portfolio/ha-pf-img-1.jpg",
+        title: "Prince One Mall",
+        city: "Jhelum",
+        hover_img: "/assets/img/portfolio/ha-pf-img01.jpg",
     },
     {
         id: 3,
-        title: "Atypikal Crypto",
-        city: "Captown",
-        hover_img: "/assets/img/portfolio/ha-pf-img-2.jpg",
+        title: "Victory Chib Heights",
+        city: "Jhelum",
+        hover_img: "/assets/img/portfolio/ha-pf-img02.jpg",
     },
     {
         id: 4,
-        title: "Gionix NFT Marketplace",
-        city: "Uganda",
-        hover_img: "/assets/img/portfolio/ha-pf-img-3.jpg",
+        title: "Downtown Lane",
+        city: "Jhelum",
+        hover_img: "/assets/img/portfolio/ha-pf-img03.jpg",
     },
 ]
 

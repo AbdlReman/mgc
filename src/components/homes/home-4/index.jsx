@@ -11,21 +11,22 @@ import FeatureArea from "./feature-area";
 import HeroBanner from "./hero-banner";
 import PriceArea from "./price-area";
 import Header from "@/src/layout/headers/header";
+import Footer from "@/src/layout/footers/footer";
 
 const HomeFour = () => {
   return (
     <>
       <Header/>
       <HeroBanner />
-      <Brand />
+      {/* <Brand /> */}
       <AboutBrand />
       <FeatureArea />
-      <AppFaqArea />
+      {/* <AppFaqArea />
       <AppNewsletter />
       <PriceArea />
-      <AppTestimonial />
-      <Blog />
-      <FooterThree style_4={true} />
+      <AppTestimonial /> */}
+      {/* <Blog /> */}
+      <Footer />
     </>
   );
 };

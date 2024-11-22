@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const BreadcrumbArea = ({acive_menu = "About", title = "Our Company Histoy"}) => {
+const BreadcrumbArea = ({acive_menu = "About", title = "About Us"}) => {
     return (
         <>
              <div className="breadcrumb__area theme-bg pt-120 pb-120" 

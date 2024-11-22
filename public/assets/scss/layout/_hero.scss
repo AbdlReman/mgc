@@ -311,7 +311,7 @@ Primary style
     white-space: nowrap;
     left: 0;
     top: 0;
-    background-image: linear-gradient(90deg, #5a6ef8, #fe7a8f);
+    background-image: linear-gradient(90deg, #5a6ef8, #977afe);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1096,11 +1096,11 @@ xloading-bar
   }
 
   .text_style div{
-    background-image: -webkit-linear-gradient(100.16deg, #5a6ef8 9.94%, #a874c6 54.82%, #fe7a8f 95.56%);
+    background-image: -webkit-linear-gradient(100.16deg, #0a61c1 9.94%, #095cb4 54.82%, #1056a0.56%);
     -webkit-background-clip: text;
     -webkit-text-fill-color:  transparent;
     border-bottom: 3px solid transparent;
-    border-image: linear-gradient(100.16deg, #5a6ef8 9.94%, #a874c6 54.82%, #fe7a8f 95.56%);
+    border-image: linear-gradient(100.16deg, #0a61c1 9.94%, #045c77 54.82%, #0a61c1.56%);
     border-image-slice: 1;
     width:100%;
   }

@@ -21,7 +21,7 @@ const Header = ({style_home_one}) => {
    <>     
    <header>
       <div className={`${style_home_one ? "" : "tp-header__1 theme-bg p-relative"}`}>
-         {style_home_one && 
+         {/* {style_home_one && 
             <motion.div layout className={`tost-box-area ${isOffer ? "d-none"  : ""}`}>
                <div className="header__top-toast text-end header-bg d-none d-lg-block cornblue-bg pt-5 pb-5">
                   <div className="container">
@@ -37,7 +37,7 @@ const Header = ({style_home_one}) => {
                </div>
             </motion.div>
 
-         }
+         } */}
             
          <div id="header-sticky" className={`tp-header__1-main header-border-button pl-105 pr-105  ${ sticky ? "header-sticky" : ""}`}>
             <div className="container-fluid">

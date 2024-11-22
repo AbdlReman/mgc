@@ -15,7 +15,7 @@ const HomeOne = () => {
       <Header style_home_one={true} />
       <HeroBusiness />
       <AboutArea />
-      <Brand />
+      {/* <Brand /> */}
       <ServiceAre />
       <TestimonialArea />
       <ProjectsArea />

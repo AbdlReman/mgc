@@ -6,76 +6,50 @@ const testimonial_data_home_two = [
   {
     id: 1,
     img: "/assets/img/testimonial/testi-avata-1.png",
-    name: "River Craft",
-    title: "Founder, Romdon Co.",
+    name: "Emily Carter",
+    title: "CEO, InnovateTech",
     des: (
       <>
-        “ Our award-winning US-based experts are available to help when you get
-        stuck anytime day or night here is ready. ”
+        “Maidaan's exceptional service and attention to detail have made my real estate journey seamless. Highly recommended!”
       </>
     ),
   },
   {
     id: 2,
     img: "/assets/img/testimonial/testi-avata-3.png",
-    name: "Jayson Mahoney",
-    title: "Author, themepure Co.",
+    name: "Michael Anderson",
+    title: "Entrepreneur",
     des: (
       <>
-        “ Our award-winning US-based experts are available to help when you get
-        stuck anytime day or night here is ready. ”
+        “Their expertise in connecting clients with premium properties is unmatched. The process was transparent and efficient.”
       </>
     ),
   },
   {
     id: 3,
     img: "/assets/img/testimonial/testi-avata-4.png",
-    name: "Tushar N. Biswas",
-    title: "Leader, Fontend Co",
+    name: "Sophia Nguyen",
+    title: "Marketing Specialist",
     des: (
       <>
-        “ Our award-winning US-based experts are available to help when you get
-        stuck anytime day or night here is ready. ”
+        “I appreciated the personal touch and excellent communication throughout. Their properties truly reflect modern living.”
       </>
     ),
   },
-  {
-    id: 4,
-    img: "/assets/img/testimonial/testi-avata-1.png",
-    name: "River Craft",
-    title: "Founder, Romdon Co.",
-    des: (
-      <>
-        “ Our award-winning US-based experts are available to help when you get
-        stuck anytime day or night here is ready. ”
-      </>
-    ),
-  },
-  {
-    id: 5,
-    img: "/assets/img/testimonial/testi-avata-3.png",
-    name: "Jayson Mahoney",
-    title: "Author, themepure Co.",
-    des: (
-      <>
-        “ Our award-winning US-based experts are available to help when you get
-        stuck anytime day or night here is ready. ”
-      </>
-    ),
-  },
+  
   {
     id: 6,
-    img: "/assets/img/testimonial/testi-avata-4.png",
-    name: "Tushar N. Biswas",
-    title: "Leader, Fontend Co",
+    img: "/assets/img/testimonial/testi-avata-2",
+    name: "James Wilson",
+    title: "Architect",
     des: (
       <>
-        “ Our award-winning US-based experts are available to help when you get
-        stuck anytime day or night here is ready. ”
+        “Their focus on combining aesthetics with functionality is remarkable. Maidaan is redefining real estate excellence.”
       </>
     ),
   },
 ];
+
 
 
 
@@ -164,11 +138,11 @@ const Testimonial = () => {
                            <i className="fas fa-star"></i>
                            <i className="fal fa-star"></i>
                         </div>
-                        <div className="it-testimonial-box__review">
+                        <div className="it-testimonial-box__review" style={{color:"#757c80"}}>
                            {item.des}
                         </div>
                         <div className="it-testimonial-bg">
-                           <img  src="/assets/img/testimonial/testi-icon-bg.png" alt="them-pure" />
+                           <img  src="/assets/img/testimonial/testi-icon-bg.png" alt="" />
                         </div>
                      </div>
                      <div className="tp-testimonial-reviewer d-flex align-items-center ml-40">

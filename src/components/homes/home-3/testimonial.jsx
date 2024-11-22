@@ -4,9 +4,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 
 const testimonial_content = {
-    title: "Our Plans",
+    title: "Our Reviews",
     bg_img: "/assets/img/testimonial/da-testi-dot.png",
-    users: "1200",
+    users: "120",
     social_site: "Feedback"
 }
 
@@ -14,45 +14,34 @@ const {title, bg_img , users, social_site}  = testimonial_content
 // testimonial_data 
 
 const testimonial_data = [
-    {
-        id: 1,
-        img: "/assets/img/testimonial/testi-lg-1.png",
-        name: "Limbon N. Nelson",
-        title: "Founder, Romdon Co.",
-        des: <>“ Our award-winning US-based experts are available  to <br /> help when you get stuck anytime day or night here is
-        ready.
-        <br /> Get an amazing experience in team. ”</>
-    },
-    {
-        id: 2,
-        img: "/assets/img/testimonial/testi-lg-2.png",
-        name: "Limbon N. Nelson",
-        title: "Founder, Romdon Co.",
-        des: <>“ Our award-winning US-based experts are available  to <br /> help when you get stuck anytime day or night here is
-        ready.
-        <br /> Get an amazing experience in team. ”</>
-    },
-    
-    {
-        id: 3,
-        img: "/assets/img/testimonial/testi-lg-3.png",
-        name: "Limbon N. Nelson",
-        title: "Founder, Romdon Co.",
-        des: <>“ Our award-winning US-based experts are available  to <br /> help when you get stuck anytime day or night here is
-        ready.
-        <br /> Get an amazing experience in team. ”</>
-    },
-    
-    {
-        id: 4,
-        img: "/assets/img/testimonial/testi-lg-4.png",
-        name: "Limbon N. Nelson",
-        title: "Founder, Romdon Co.",
-        des: <>“ Our award-winning US-based experts are available  to <br /> help when you get stuck anytime day or night here is
-        ready.
-        <br /> Get an amazing experience in team. ”</>
-    },
-    
+  {
+    id: 1,
+    img: "/assets/img/testimonial/testi-lg-1.png",
+    name: "Ali Khan",
+    title: "Satisfied Property Buyer",
+    des: "Maidaan Properties provided exceptional guidance throughout my property purchase. Their expert team made the entire process seamless and stress-free. I highly recommend them for reliable and transparent real estate solutions."
+},
+{
+    id: 2,
+    img: "/assets/img/testimonial/testi-lg-2.png",
+    name: "Faheem Ahmed",
+    title: "Luxury Apartment Owner",
+    des: "The professionalism and support from Maidaan Properties were unparalleled. They handled everything efficiently and kept me informed every step of the way. Choosing Maidaan was the best decision for my real estate journey."
+},
+{
+    id: 3,
+    img: "/assets/img/testimonial/testi-lg-3.png",
+    name: "Omar Sheikh",
+    title: "Real Estate Developer",
+    des: "Partnering with Maidaan Properties has been a game-changer for my projects. Their innovative marketing strategies and EAAS services have boosted my sales significantly. They truly understand the needs of developers."
+},
+{
+    id: 4,
+    img: "/assets/img/testimonial/testi-lg-4.png",
+    name: "John Smith",
+    title: "Luxury Home Buyer",
+    des: "Maidaan Properties turned my dream of owning a luxury home into reality. Their dedication and customer-centric approach set them apart from others. Thank you,"
+}
 
 ]
 
@@ -100,7 +89,8 @@ const Testimonial = () => {
                    {title}
                   </span>
                   <h2 className="tp-section__title text-white mb-30 black-line">
-                    {users}+ User
+                    {/* {users}+ User */}
+                    User
                     <span> {social_site}</span> 
                   </h2>
                 </div>

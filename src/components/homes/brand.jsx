@@ -70,10 +70,16 @@ const Brand = ({ style_2 ,style_7, style_faq}) => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="it-breand-title text-center mb-60">
-                <span>Trusted by Companies all over the world</span>
+              <div className="it-breand-title text-center">
+                <span>
+                <b>Our Mission</b><br/>
+At Maidaan Properties, our mission is to streamline the real estate process, making it accessible, transparent, and efficient for all. We offer comprehensive services tailored to our clients' diverse needs, delivering innovative solutions that elevate every step of the buying and selling experience.
+<br/>
+<b>Our Vision</b><br/>
+We envision a real estate landscape where transparency, efficiency, and creativity converge to create an integrated and rewarding property experience for everyone involved.
+                </span>
               </div>
-              <div className="tp-bs-brand-slider">
+              {/* <div className="tp-bs-brand-slider">
                 <Swiper
                   {...setting}
                   loop={isLoop}
@@ -88,7 +94,7 @@ const Brand = ({ style_2 ,style_7, style_faq}) => {
                     </SwiperSlide>
                   ))}
                 </Swiper>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

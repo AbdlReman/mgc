@@ -3,25 +3,27 @@ import React from "react";
 const portfolio_content = {
   img_1: "/assets/img/portfolio/ca-portfolio-1.jpg",
   img_2: "/assets/img/portfolio/ca-portfolio-2.jpg",
-  title: "UX, Website Design",
-  name: "Company Case Study",
+  title: "Interior Design ",
+  name: "Victory Builders' Case Study",
 };
+
 const { img_1, img_2, title, name } = portfolio_content;
 
 const portfolio_data = [
   {
     id: 1,
     img: "/assets/img/portfolio/ca-portfolio-3.jpg",
-    title: "UX, Website Design",
-    name: "Company Case Study",
+    title: "Modern Interior ",
+    name: "Premium Victory Projects",
   },
   {
     id: 2,
     img: "/assets/img/portfolio/ca-portfolio-4.jpg",
-    title: "UX, Website Design",
-    name: "Company Case Study",
+    title: "Luxury Home Interiors",
+    name: "Innovative Design ",
   },
 ];
+
 
 
 

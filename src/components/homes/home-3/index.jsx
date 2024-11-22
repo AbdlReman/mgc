@@ -13,6 +13,7 @@ import ProjectArea from "./project-area";
 import ServiceArea from "./service-area";
 import Testimonial from "./testimonial";
 import Header from "@/src/layout/headers/header";
+import Footer from "@/src/layout/footers/footer";
 
 const HomeThree = () => {
   return (
@@ -24,12 +25,15 @@ const HomeThree = () => {
       <About />
       <ServiceArea />
       <CtaArea />
-      <ProjectArea />
+      {/* <ProjectArea /> */}
+
+      {/* our Achievements */}
       <PricePlan />
-      <OurTeam />
+
+      {/* <OurTeam /> */}
       <Testimonial />
-      <BlogArea />
-      <FooterThree />
+      {/* <BlogArea /> */}
+      <Footer />
     </>
   );
 };

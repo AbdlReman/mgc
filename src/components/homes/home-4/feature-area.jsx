@@ -3,31 +3,32 @@ import React from "react";
 
 
 const feature_data = [
-    {
-        id: 1,
-        icon: "/assets/img/icons/app-fea-icon-1.png",
-        title: <>Cloud Compatible</>,
-        des: <>Software is a collection of instructions that tell a computer how to work in the other way.</>
-    },
-    {
-        id: 2,
-        icon: "/assets/img/icons/app-fea-icon-2.png",
-        title: <>Check Compatible</>,
-        des: <>Software is a collection of instructions that tell a computer how to work in the other way.</>
-    },
-    {
-        id: 3,
-        icon: "/assets/img/icons/app-fea-icon-3.png",
-        title: <>Code Compatible</>,
-        des: <>Software is a collection of instructions that tell a computer how to work in the other way.</>
-    },
-    {
-        id: 4,
-        icon: "/assets/img/icons/app-fea-icon-4.png",
-        title: <>More Compatible</>,
-        des: <>Software is a collection of instructions that tell a computer how to work in the other way.</>
-    },
-]
+  {
+    id: 1,
+    icon: "/assets/img/icons/app-fea-icon-1.png",
+    title: <>Community-Focused Living</>,
+    des: <>Grand Prairie Gardens offers community-centered amenities designed to foster connections and a sense of belonging among residents.</>,
+  },
+  {
+    id: 2,
+    icon: "/assets/img/icons/app-fea-icon-2.png",
+    title: <>Prime Location</>,
+    des: <>Situated near essential landmarks, Grand Prairie Gardens ensures easy access to schools, healthcare, and shopping facilities.</>,
+  },
+  {
+    id: 3,
+    icon: "/assets/img/icons/app-fea-icon-3.png",
+    title: <>High-Quality Construction</>,
+    des: <>Each property at Grand Prairie Gardens is built with precision and care, ensuring lasting durability and aesthetic appeal.</>,
+  },
+  {
+    id: 4,
+    icon: "/assets/img/icons/app-fea-icon-4.png",
+    title: <>Green Spaces</>,
+    des: <>The project features lush green landscapes and parks, offering residents serene spaces to relax and unwind.</>,
+  },
+];
+
 
 
 const FeatureArea = () => {
@@ -47,12 +48,12 @@ const FeatureArea = () => {
                     Core Features
                     <i className="far fa-circle"></i>
                   </span>
-                  <h2
+                  {/* <h2
                     className="tp-section__title mb-60 text-mirage wow tpfadeUp"
                     data-wow-delay=".3s"
                   >
                     Through Our Application
-                  </h2>
+                  </h2> */}
                 </div>
               </div>
             </div>
@@ -64,9 +65,9 @@ const FeatureArea = () => {
                   className="app-feature-box d-flex white-bg p-relative wow tpfadeUp"
                   data-wow-delay=".3s"
                 >
-                  <div className="app-feature-box-icon">
+                  {/* <div className="app-feature-box-icon">
                     <img src={item.icon} alt="iclud" />
-                  </div>
+                  </div> */}
                   <div className="app-feature__info">
                     <h4 className="app-feature__title text-mirage">
                       <Link href="/service-2">{item.title}</Link>
