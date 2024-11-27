@@ -1,26 +1,20 @@
 import React from "react";
 
 const contact_data = [
-  {
-    id: 1,
-    titel: "Become a client",
-    email: "info@gencio-works.com",
-    phone: "720.797.2031",
-    tel: "78568065900",
-  },
+ 
   {
     id: 2,
-    titel: "Media inquiries",
-    email: "info@gencio-works.com",
-    phone: "720.797.2031",
-    tel: "78568065900",
+    titel: "Inquiries",
+    email: "support@maidaangroup.com",
+    phone: "(+92) 304-111-3309",
+    tel: "(+92) 304-111-3309",
   },
   {
     id: 3,
     titel: "General",
-    email: "info@gencio-works.com",
-    phone: "720.797.2031",
-    tel: "78568065900",
+    email: "info@maidaangroup.com",
+    phone: "(+92) 304-111-3309",
+    tel: "(+92) 304-111-3309",
   },
 ];
 
@@ -28,7 +22,7 @@ const contact_data = [
 const contact_info = {
   img: "/assets/img/cta/contact-page-1.jpg",
   hi_text: "Say Hello",
-  title: <>The feeling is mutual. These are the best ways to make it happen.</>,
+  title: <>At Maidaan Group, we blend creativity with strategy to deliver impactful branding solutions.</>,
 };
 
 const { img, hi_text, title } = contact_info;
@@ -57,7 +51,7 @@ const ContactArea = () => {
               </div>
               <div className="row">
                 {contact_data.map((item, i) => (
-                  <div key={i} className="col-lg-3">
+                  <div key={i} className="col-lg-5">
                     <div className="contact-cta-item mb-30">
                       <b>{item.titel}</b> <br />
                       <a href={`mailto:${item.email}`}>{item.email}</a> <br />

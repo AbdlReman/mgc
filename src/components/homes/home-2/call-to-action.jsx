@@ -3,7 +3,7 @@ import React from "react";
 
 
 const call_to_action_data = {
-    action: "Call To Action",
+    action: "Contact",
     title: "Any Project On Your Mind. Let Us Know.",
     phone: "+92 304 111 3309",
     address: "Fortune Plaza Blue Area Islamabad",
@@ -27,7 +27,7 @@ const CallToAction = () => {
                       <i className="before-border"></i>
                        {action}
                     </span>
-                    <h2 className="tp-section__title vogue-text-color mb-45">
+                    <h2 className="tp-section__title  mb-45">
                       {title}
                     </h2>
                   </div>
