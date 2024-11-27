@@ -18,7 +18,7 @@ const menu_data = [
     id: 3,
     mega_menu: false,
     has_dropdown: true,
-    title: "Mcg",
+    title: "MGC",
     link: "#",
     sub_menus: [
     
