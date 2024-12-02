@@ -42,14 +42,14 @@ const menu_data = [
   //   link: "/privacy-policy",
    
   // },
-  {
-    id: 5,
-    mega_menu: false,
-    has_dropdown: false,
-    title: "Blog",
-    link: "/blog",
+  // {
+  //   id: 5,
+  //   mega_menu: false,
+  //   has_dropdown: false,
+  //   title: "Blog",
+  //   link: "/blog",
    
-  },
+  // },
   {
     id: 6,
     mega_menu: false,

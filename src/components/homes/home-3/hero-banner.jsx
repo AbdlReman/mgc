@@ -88,7 +88,7 @@ const HeroBanner = () => {
               </div>
               <div className="da-hero-black-box bg-black float-end">
                 <span>
-                  <a href="mailto:info@genico.com">info@maidaan.com</a>
+                  <a href="mailto:info@themaidaan.com">info@themaidaan.com</a>
                 </span>
                 <span className="float-end">
                   {/* <a href="mailto:info@genico.com">

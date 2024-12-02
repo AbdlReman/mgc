@@ -42,9 +42,9 @@ const AboutArea = () => {
                             gyroscope={true}
                             >
                             <img src={about_img} alt="" />
-                            <div className="ca-about-circle">
+                            {/* <div className="ca-about-circle">
                                 <img src={circle_img} alt="" />
-                            </div>
+                            </div> */}
 
                             </Tilt>
                         </div>

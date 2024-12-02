@@ -60,7 +60,7 @@ const Header = ({style_home_one}) => {
                      <div className="col-xxl-4 col-xl-3 d-xl-block col-md-6 col-6">
                         <div className="tp-header__1-right d-flex justify-content-end align-items-center">
                            {/* <div className="header-mail-info mr-40">
-                              <a href="mailto:info@gencio.com"><i className="fas fa-envelope-open"></i>info@maidaangroup.com</a>
+                              <a href="mailto:info@gencio.com"><i className="fas fa-envelope-open"></i>info@themaidaan.comm</a>
                            </div> */}
                            <Link href="/contact" className="tp-btn d-none d-xl-block tp-btn-hover">Get Quote<span>
                                  <i className="fal fa-long-arrow-right"></i>

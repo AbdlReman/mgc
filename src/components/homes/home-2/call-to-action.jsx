@@ -7,8 +7,8 @@ const call_to_action_data = {
     title: "Any Project On Your Mind. Let Us Know.",
     phone: "+92 304 111 3309",
     address: "Fortune Plaza Blue Area Islamabad",
-    email:"info@maidaangroup.com",
-    date: "Mon-Fri: 09:00 - 18:0"
+    email:"info@themaidaan.com",
+    date: "Mon-Fri: 09:00 - 18:00"
 }
 
 const {action, title, phone, address, email, date} = call_to_action_data
@@ -47,9 +47,9 @@ const CallToAction = () => {
                      {email}
                   </a>
                 </span>
-                <span>
+                {/* <span>
                   <i className="fas fa-clock"></i> {date}
-                </span>
+                </span> */}
               </div>
             </div>
             <div className="col-lg-6">

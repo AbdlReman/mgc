@@ -105,7 +105,7 @@ const HeroBusiness = () => {
               <div className="bs-hero__img text-lg-end p-relative pr-40">
                 <img src={hero_img} alt="" />
                 <div className="hero-business-chart">
-                  <img src={hero_docu_img} alt="" />
+                  {/* <img src={hero_docu_img} alt="" /> */}
                 </div>
                 <div className="hero-business-pie">
                   <img src={hero_pie_img} alt="" />

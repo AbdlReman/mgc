@@ -68,7 +68,7 @@ const PortfolioArea = () => {
                         </div>
                         <div className="ha-portfolio__item-content">
                             <span>{item.name}</span>
-                            <h3 className="ha-portfolio__item-content-title"><Link href="/portfolio-details"> 
+                            <h3 className="ha-portfolio__item-content-title"><Link href="#"> 
                             {item.title}
                             </Link></h3>
                         </div>

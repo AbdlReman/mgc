@@ -4,17 +4,17 @@ const contact_data = [
  
   {
     id: 2,
-    titel: "Inquiries",
-    email: "support@maidaangroup.com",
-    phone: "(+92) 304-111-3309",
-    tel: "(+92) 304-111-3309",
+    titel: "Phone / Fax",
+    email: "(+92) 304-111-3309",
+    // phone: "(+92) 304-111-3309",
+    // tel: "(+92) 304-111-3309",
   },
   {
     id: 3,
-    titel: "General",
-    email: "info@maidaangroup.com",
-    phone: "(+92) 304-111-3309",
-    tel: "(+92) 304-111-3309",
+    titel: "Email",
+    email: "info@themaidaan.com",
+    // phone: "(+92) 304-111-3309",
+    // tel: "(+92) 304-111-3309",
   },
 ];
 

@@ -30,7 +30,7 @@ const footer_content = {
   address: "Phone",
   phone: "(+92) 304-111-3309",
   email_icon: "/assets/img/footer/message-rgb-ison.png",
-  email: "info@maidaangroup.com",
+  email: "info@themaidaan.com",
 };
 
 const { footer_logo, about, about_des, phone_icon, address, phone, email_icon, email } = footer_content;
