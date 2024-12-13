@@ -1,6 +1,6 @@
 import React from "react";
-import SEO from "../common/seo";
-import BlogDetails from "../components/blog-pages/blog-details";
+import SEO from "../../common/seo";
+import BlogDetails from "../../components/blog-pages/blog-details";
 
 const index = () => {
   return (

@@ -8,6 +8,7 @@ import HeroBusiness from "./hero-business";
 import ProjectsArea from "./projects-area";
 import ServiceAre from "./service-are";
 import TestimonialArea from "./testimonial-area";
+import Blog from "../home-9/blog";
 
 const HomeOne = () => {
   return (
@@ -19,6 +20,7 @@ const HomeOne = () => {
       <ServiceAre />
       <TestimonialArea />
       <ProjectsArea />
+      <Blog />
       <CtaArea />
       <Footer />
     </>
