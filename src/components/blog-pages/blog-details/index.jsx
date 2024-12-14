@@ -31,6 +31,7 @@ const BlogDetails = () => {
             setBlog({
               title: blogData.title,
               thumbnail: blogData.thumbnail.fields.file.url,
+              banner: blogData.banner.fields.file.url,
               date: blogData.date,
               description: blogData.description,
             });

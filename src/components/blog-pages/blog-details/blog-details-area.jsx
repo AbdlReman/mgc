@@ -16,9 +16,14 @@ const BlogDetailsArea = ({ blog, popularFeeds }) => {
               <div className="postbox__wrapper pr-50 mr-30">
                 <div className="postbox__border">
                   <article className="postbox__item format-stander mb-30 transition-3">
-                    <div className="postbox__thumb p-relative mb-30">
-                      <img src={blog.thumbnail} alt="Blog Thumbnail" />
-                    </div>
+                  <div className="postbox__thumb p-relative mb-30">
+                        <div  className="w-img">
+                        <img src={blog.banner} alt="Blog banner" />
+                        </div>
+                      </div>
+                    {/* <div className="postbox__thumb p-relative mb-30">
+                      <img src={blog.banner} alt="Blog banner" />
+                    </div> */}
                     <div className="postbox__content postbox__content-single">
                       <div className="postbox__meta mb-25">
                         <span>
