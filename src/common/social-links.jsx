@@ -2,28 +2,28 @@ import React from "react";
 // social_links
 const social_links = [
   {
-    link: "http://facebook.com",
+    link: "https://www.facebook.com/themaidaanmarketing/",
     target: "_blank",
     icon: "fab fa-facebook-f",
     name: "Facebook",
   },
   {
-    link: "http://twitter.com",
+    link: "https://twitter.com/the_maidaan",
     target: "_blank",
     icon: "fab fa-twitter",
     name: "Twitter",
   },
   {
-    link: "https://www.behance.com/",
+    link: "https://www.instagram.com/themaidaan/",
     target: "_blank",
-    icon: "fab fa-behance",
-    name: "Behance",
+    icon: "fab fa-instagram",
+    name: "Instagram",
   },
   {
-    link: "https://www.youtube.com/",
+    link: "https://www.linkedin.com/company/maidaan/posts/?feedView=all",
     target: "_blank",
-    icon: "fab fa-youtube",
-    name: "Youtube",
+    icon: "fab fa-linkedin",
+    name: "Linkedin",
   },
 ];
 

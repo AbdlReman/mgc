@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const hero_content = {
     top_title: "Comprehensive Branding Solutions",
-    title: "for Every Size  of ",
+    title: "For Every Size  of ",
     sub_title: <>At Maidaan Group, we blend creativity with strategy to deliver impactful branding solutions. Our holistic approach ensures your brand reflects its true essence while driving engagement and growth.</>,
     total_review: "1500",
     hero_img: "/assets/img/hero/hero-1.png",

@@ -1,5 +1,6 @@
 import SocialLinks from '@/src/common/social-links';
 import CommonFooter, { FooterCopyRight } from './common-footer';
+import Subscribe from '@/src/forms/subscribe';
 
 const footer_links = [
   {
@@ -120,7 +121,7 @@ const Footer = ({ tp_border }) => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-md-6"> 
+                {/* <div className="col-xl-4 col-md-6"> 
                     <div className="tp-footer__widget bs-pl-60 mb-40">
                       <h3 className="tp-footer__widget-title mb-35">
                         Subscribe Now
@@ -143,7 +144,8 @@ const Footer = ({ tp_border }) => {
                         <span>**</span>We are not going to save your data
                       </p>
                     </div>
-                  </div>
+                  </div> */}
+                  <Subscribe/>
               </div>
             </div>
             {/* Footer Copy Right */}

@@ -13,6 +13,7 @@
     "@next/font": "13.1.6",
     "bootstrap": "^5.2.3",
     "contentful": "^11.2.5",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^10.1.0",
     "next": "13.1.6",
     "react": "18.2.0",

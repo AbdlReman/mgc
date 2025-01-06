@@ -19,28 +19,28 @@ const testimonial_data = [
     img: "/assets/img/testimonial/testi-lg-1.png",
     name: "Ali Khan",
     title: "Satisfied Property Buyer",
-    des: "Maidaan Properties provided exceptional guidance throughout my property purchase. Their expert team made the entire process seamless and stress-free. I highly recommend them for reliable and transparent real estate solutions."
+    des: "Maidaan provided exceptional guidance throughout my property purchase. Their expert team made the entire process seamless and stress-free. I highly recommend them for reliable and transparent real estate solutions."
 },
 {
     id: 2,
     img: "/assets/img/testimonial/testi-lg-2.png",
     name: "Faheem Ahmed",
     title: "Luxury Apartment Owner",
-    des: "The professionalism and support from Maidaan Properties were unparalleled. They handled everything efficiently and kept me informed every step of the way. Choosing Maidaan was the best decision for my real estate journey."
+    des: "The professionalism and support from Maidaan  were unparalleled. They handled everything efficiently and kept me informed every step of the way. Choosing Maidaan was the best decision for my real estate journey."
 },
 {
     id: 3,
     img: "/assets/img/testimonial/testi-lg-3.png",
     name: "Omar Sheikh",
     title: "Real Estate Developer",
-    des: "Partnering with Maidaan Properties has been a game-changer for my projects. Their innovative marketing strategies and EAAS services have boosted my sales significantly. They truly understand the needs of developers."
+    des: "Partnering with Maidaan has been a game-changer for my projects. Their innovative marketing strategies and EAAS services have boosted my sales significantly. They truly understand the needs of developers."
 },
 {
     id: 4,
     img: "/assets/img/testimonial/testi-lg-4.png",
     name: "John Smith",
     title: "Luxury Home Buyer",
-    des: "Maidaan Properties turned my dream of owning a luxury home into reality. Their dedication and customer-centric approach set them apart from others. Thank you,"
+    des: "Maidaan turned my dream of owning a luxury home into reality. Their dedication and customer-centric approach set them apart from others. Thank you,"
 }
 
 ]
