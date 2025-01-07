@@ -9,7 +9,7 @@ const about_content = {
     img_4: "/assets/img/about/it-ab-avata.png",
     img_5: "/assets/img/about/law-signature.png", 
 
-    left_title: "Good Expertise In Law",
+    left_title: "Good Expertise In Real Estate",
     title: <>about  <br /> maidaan group</>,
     about_P_title: <>About Maidaan Group.</>,
     des: <>Maidaan Group is a dynamic and forward-thinking conglomerate with a diverse portfolio of projects that span across real estate, construction, and community development. With a strong commitment to excellence, innovation, and sustainability, we have positioned ourselves as leaders in the industries we operate in. At Maidaan Group, we take pride in our ability to create impactful solutions that not only meet the market's demands but also enhance the lives of individuals and communities around the world.
