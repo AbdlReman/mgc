@@ -1,6 +1,6 @@
-import SocialLinks from '@/src/common/social-links';
-import CommonFooter, { FooterCopyRight } from './common-footer';
-import Subscribe from '@/src/forms/subscribe';
+import SocialLinks from "@/src/common/social-links";
+import CommonFooter, { FooterCopyRight } from "./common-footer";
+import Subscribe from "@/src/forms/subscribe";
 
 const footer_links = [
   {
@@ -13,7 +13,6 @@ const footer_links = [
       { title: "Home", link: "/" },
       { title: "News & Feeds", link: "/blog" },
       { title: "Get In Touch", link: "/contact" },
-   
     ],
   },
 ];
@@ -23,8 +22,8 @@ const footer_content = {
   about: "About Us",
   about_des: (
     <>
-      Your goals are individual. We believe business advice should be too, so
-      we have to help your business thrive in this work environment situation.
+      Your goals are individual. We believe business advice should be too, so we
+      have to help your business thrive in this work environment situation.
     </>
   ),
   phone_icon: "/assets/img/footer/call-icon.png",
@@ -34,7 +33,16 @@ const footer_content = {
   email: "info@themaidaan.com",
 };
 
-const { footer_logo, about, about_des, phone_icon, address, phone, email_icon, email } = footer_content;
+const {
+  footer_logo,
+  about,
+  about_des,
+  phone_icon,
+  address,
+  phone,
+  email_icon,
+  email,
+} = footer_content;
 
 const Footer = ({ tp_border }) => {
   return (
@@ -96,10 +104,15 @@ const Footer = ({ tp_border }) => {
                 {/* Get In Touch Section */}
                 <div className="col-xl-3 col-md-6">
                   <div className="tp-footer__widget mb-40">
-                    <h3 className="tp-footer__widget-title mb-35">Get In Touch</h3>
+                    <h3 className="tp-footer__widget-title mb-35">
+                      Get In Touch
+                    </h3>
                     <div className="tp-footer-cta d-flex align-items-center mb-30">
                       <span className="call-icon">
-                        <img src="/assets/img/footer/footer-rbg-call.png" alt="" />
+                        <img
+                          src="/assets/img/footer/footer-rbg-call.png"
+                          alt=""
+                        />
                       </span>
                       <span>
                         <span className="d-block mb-0">{address}</span>
@@ -145,7 +158,7 @@ const Footer = ({ tp_border }) => {
                       </p>
                     </div>
                   </div> */}
-                  <Subscribe/>
+                <Subscribe />
               </div>
             </div>
             {/* Footer Copy Right */}

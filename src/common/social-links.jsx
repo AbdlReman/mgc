@@ -41,7 +41,6 @@ const SocialLinks = () => {
 
 export default SocialLinks;
 
-
 const social_links_home_two = [
   {
     link: "http://facebook.com",
@@ -71,8 +70,8 @@ const social_links_home_two = [
     link: "https://www.linkedin.com/en/",
     target: "_blank",
     icon: "fab fa-linkedin",
-    name: "Linkedin"
-  }
+    name: "Linkedin",
+  },
 ];
 
 export const SocialLinksHomeTwo = () => {
@@ -86,5 +85,3 @@ export const SocialLinksHomeTwo = () => {
     </>
   );
 };
-
- 

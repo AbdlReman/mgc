@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
-import { createClient } from 'contentful';
+import React, { useEffect, useState } from "react";
+import { useRouter } from "next/router";
+import { createClient } from "contentful";
 import Header from "@/src/layout/headers/header";
 import BreadcrumbArea from "@/src/common/breadcrumb-area";
 import Footer from "@/src/layout/footers/footer";
@@ -16,14 +16,14 @@ const BlogDetails = () => {
     const fetchBlogs = async () => {
       try {
         const client = createClient({
-          space: '0yvsoqusgxrp',
-          accessToken: 'D9d1wYcZXA713hP3qCXyPTt4HXfRznRFPOgxN1hQKDM',
+          space: "0yvsoqusgxrp",
+          accessToken: "D9d1wYcZXA713hP3qCXyPTt4HXfRznRFPOgxN1hQKDM",
         });
 
         if (slug) {
           const response = await client.getEntries({
-            content_type: 'blog',
-            'fields.slug': slug,
+            content_type: "blog",
+            "fields.slug": slug,
           });
 
           if (response.items.length > 0) {
@@ -40,12 +40,12 @@ const BlogDetails = () => {
 
         // Fetch latest blogs for popular feeds
         const popularResponse = await client.getEntries({
-          content_type: 'blog',
+          content_type: "blog",
           limit: 3,
-          order: '-sys.createdAt',
+          order: "-sys.createdAt",
         });
 
-        const feeds = popularResponse.items.map(item => ({
+        const feeds = popularResponse.items.map((item) => ({
           title: item.fields.title,
           thumbnail: item.fields.thumbnail.fields.file.url,
           date: item.fields.date,
@@ -54,7 +54,7 @@ const BlogDetails = () => {
 
         setPopularFeeds(feeds);
       } catch (error) {
-        console.error('Error fetching blog data:', error);
+        console.error("Error fetching blog data:", error);
       }
     };
 
@@ -74,5 +74,3 @@ const BlogDetails = () => {
 };
 
 export default BlogDetails;
-
-
